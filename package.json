@@ -1,0 +1,18 @@
+{
+  "name": "@honmameiko/apf-types",
+  "version": "1.0.0",
+  "description": "type declarations for both frontend and backend of the apf",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Typescript"
+  ],
+  "author": "honmameiko",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {}
+}
