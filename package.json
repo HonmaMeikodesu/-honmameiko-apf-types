@@ -2,9 +2,10 @@
   "name": "@honmameiko/apf-types",
   "version": "1.0.0",
   "description": "type declarations for both frontend and backend of the apf",
-  "main": "index.ts",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist/ && tsc"
   },
   "keywords": [
     "Typescript"
