@@ -8,22 +8,17 @@ export interface QuestionBrief {
   qAc: number,
   qDifficulty: number,
   qUploadTime: string,
-  qStatus: QStatus,
+  qStatus?: QStatus,
   qHasSolve: boolean,
 }
 
-export interface QuestionDetail {
-  qId: number,
-  qTitle: string,
+export interface QuestionDetail extends QuestionBrief {
   qDescription: string,
   qInput: string,
   qOutput: string,
   qSampleInput: string,
   qSampleOutput: string,
   qHint?: string,
-  qStatus: QStatus,
-  qDifficulty: number,
-  qHasSolve: boolean,
 }
 
 export interface QuestionFilter<T> {
