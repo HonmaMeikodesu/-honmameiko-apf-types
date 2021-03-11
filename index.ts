@@ -6,5 +6,5 @@ export type {
   QuestionBrief, QuestionDetail, QStatus, QuestionFilter, CommitHistory,
 } from "./question";
 
-import { HasSolveFilterOption, StatusFilterOption, FilterKind } from "./filter";
-export { HasSolveFilterOption, StatusFilterOption, FilterKind };
+import { HasSolveFilterOption, StatusFilterOption, OriginFilterOption, FilterKind } from "./filter";
+export { HasSolveFilterOption, StatusFilterOption, OriginFilterOption, FilterKind };
