@@ -1,8 +1,8 @@
 export type UserIdentity = "student" | "teacher";
 
 export interface UnchangableInfo {
-  account: string,
-  identity: UserIdentity,
+  account: string | undefined,
+  identity: UserIdentity | undefined,
 }
 
 export interface UserBasicInfo extends UnchangableInfo {
