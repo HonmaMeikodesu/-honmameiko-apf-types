@@ -21,6 +21,21 @@ export interface QuestionDetail extends QuestionBrief {
   qHint?: string,
 }
 
+export interface uploadQuestion {
+  qId: number,
+  qTitle: string,
+  qDifficulty: number,
+  qHasSolve: boolean,
+  qDescription: string,
+  qInput: string,
+  qOutput: string,
+  qSampleInput: string,
+  qSampleOutput: string,
+  qHint?: string,
+  qSolve?: string,
+  qTestSet: Array<[string, string]>,
+}
+
 export interface QuestionFilter<T> {
   filterKind: string,
   filterValue: T,
