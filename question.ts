@@ -19,6 +19,8 @@ export interface QuestionDetail extends QuestionBrief {
   qSampleInput: string,
   qSampleOutput: string,
   qHint?: string,
+  qMaxStorage?: number, // 单位为Byte
+  qMaxTime?: number, // 单位为ms
 }
 
 export interface uploadQuestion {
@@ -34,6 +36,8 @@ export interface uploadQuestion {
   qHint?: string,
   qSolve?: string,
   qTestSet: Array<[string, string]>,
+  qMaxStorage?: number, // 单位为Byte
+  qMaxTime?: number, // 单位为ms
 }
 
 export interface QuestionFilter<T> {
