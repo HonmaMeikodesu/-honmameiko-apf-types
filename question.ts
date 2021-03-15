@@ -50,7 +50,9 @@ export interface CommitHistory {
   commitResult: CommitResult,
   commitTimeConsume: number, // ms为单位
   commitStorageConsume: number, // Byte为单位
-  commitLanguage: string,
+  commitLanguage: CommitLanguage,
 }
 
 export type CommitResult = "Wating In Line" | "Judging" | "AC" | "Compile Error" | "Runtime Error" | "Wrong Answer" | "Time Limit Exceeded" | "Memory Limit Exceeded" | "Judging Time Out" | "Unknown Error";
+
+export type CommitLanguage = "Javascript" | "C++";
