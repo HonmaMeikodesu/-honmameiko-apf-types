@@ -3,7 +3,10 @@ export type {
 } from "./user";
 export type { ServerResponseData } from "./response";
 export type {
-  QuestionBrief, QuestionDetail, QStatus, QuestionFilter, CommitHistory, CommitLanguage, CommitResult,
+  QuestionBrief, QuestionDetail, QStatus, QuestionFilter, CommitHistory,
+  CommitLanguage, CommitResult, PendingCommitResult, SuccessCommitResult,
+  CompileError, RuntimeError, WrongAnswerError, TimeLimitError, StorageLimitError,
+  JudgingError, UnknownError, AllErrorResult, AllResult, 
 } from "./question";
 
 import { HasSolveFilterOption, StatusFilterOption, OriginFilterOption, FilterKind } from "./filter";
