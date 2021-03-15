@@ -47,8 +47,10 @@ export interface QuestionFilter<T> {
 
 export interface CommitHistory {
   commitTime: string,
-  commitResult: string,
+  commitResult: CommitResult,
   commitTimeConsume: number, // ms为单位
   commitStorageConsume: number, // Byte为单位
   commitLanguage: string,
 }
+
+export type CommitResult = "Wating In Line" | "Judging" | "AC" | "Compile Error" | "Runtime Error" | "Wrong Answer" | "Time Limit Exceeded" | "Memory Limit Exceeded" | "Judging Time Out" | "Unknown Error";
