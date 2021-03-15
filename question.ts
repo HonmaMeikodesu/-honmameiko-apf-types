@@ -57,12 +57,11 @@ export type CommitResult = "Wating In Line" | "Judging" | "AC" | "Compile Error"
 
 export type CommitLanguage = "Javascript" | "C++";
 
-export interface PendingCommitResult {
-  commitResult: "Wating In Line" | "Judging",
-}
-
 interface Result {
   commitResult: CommitResult;
+}
+
+export interface PendingCommitResult extends Result {
 }
 
 export interface SuccessCommitResult extends Result {
