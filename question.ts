@@ -23,7 +23,7 @@ export interface QuestionDetail extends QuestionBrief {
   qMaxTime?: number, // 单位为ms
 }
 
-export interface uploadQuestion {
+export interface UploadQuestion {
   qId: number,
   qTitle: string,
   qDifficulty: number,

@@ -3,7 +3,7 @@ export type {
 } from "./user";
 export type { ServerResponseData } from "./response";
 export type {
-  QuestionBrief, QuestionDetail, QStatus, QuestionFilter, CommitHistory,
+  QuestionBrief, QuestionDetail, QStatus, QuestionFilter, CommitHistory, UploadQuestion,
   CommitLanguage, CommitResult, PendingCommitResult, SuccessCommitResult,
   CompileError, RuntimeError, WrongAnswerError, TimeLimitError, StorageLimitError,
   JudgingError, UnknownError, AllErrorResult, AllResult, 
