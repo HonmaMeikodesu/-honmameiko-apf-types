@@ -11,3 +11,5 @@ export type {
 
 import { HasSolveFilterOption, StatusFilterOption, OriginFilterOption, FilterKind } from "./filter";
 export { HasSolveFilterOption, StatusFilterOption, OriginFilterOption, FilterKind };
+
+export type { EventEmittedFromClient, EventEmittedFromServer } from "./socket";
