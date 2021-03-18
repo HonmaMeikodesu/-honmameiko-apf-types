@@ -1,4 +1,4 @@
-export type QStatus = "WT" | "NAC" | "AC";
+export type QStatus = "NAC" | "AC";
 // Wait for trial, not accepet, accpet
 
 export interface QuestionBrief {
