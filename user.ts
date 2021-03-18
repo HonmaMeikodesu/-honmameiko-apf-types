@@ -11,7 +11,6 @@ export interface UserBasicInfo extends UnchangableInfo {
 
 export interface UserInfo extends UnchangableInfo {
   avatarUrl: string,
-  ukey: string
 }
 
 export interface StudentInfo extends UserInfo {
