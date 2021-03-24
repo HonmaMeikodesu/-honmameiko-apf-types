@@ -1,6 +1,6 @@
 {
   "name": "@honmameiko/apf-types",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "type declarations for both frontend and backend of the apf",
   "main": "./dist/index.js",
   "scripts": {
