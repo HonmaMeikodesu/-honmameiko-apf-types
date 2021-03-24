@@ -14,4 +14,4 @@ export { HasSolveFilterOption, StatusFilterOption, OriginFilterOption, FilterKin
 
 export type { EventEmittedFromClient, EventEmittedFromServer } from "./socket";
 
-export type { toJudge } from "./oj";
+export type { toJudge, judgeDataFromServer, judgeDataFromClient, AnswersSavedInRedis } from "./oj";
